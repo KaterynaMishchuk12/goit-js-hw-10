@@ -49,7 +49,7 @@ function onSelect(evt) {
 };
 
 function onFetchError(error) {
-    breedSelect.classList.remove(is-hidden);
+    breedSelect.classList.remove('is-hidden');
     loader.classList.replace('loader', 'is-hidden');
 
     Notiflix.Notify.failure('Oops! Something went wrong! Try reloading the page!')
