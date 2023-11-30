@@ -1,0 +1,20 @@
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.breed-select{
+    /* margin: 40px 20px; */
+    width: 100px;
+    height: 32px;
+}
+
+.is-hidden{
+    position: absolute;
+    overflow:hidden;
+    padding: 0;
+    margin: -1;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+}
