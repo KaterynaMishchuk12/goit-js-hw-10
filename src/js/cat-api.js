@@ -13,7 +13,7 @@ export function fetchBreeds() {
             throw new Error(response.status);
         }
         return response.json();
-        console.log(response.data)
+        
     })    
 };
 

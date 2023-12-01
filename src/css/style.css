@@ -4,8 +4,8 @@ img{
 }
 
 .breed-select{
-    /* margin: 40px 20px; */
-    width: 100px;
+    margin: 40px 10px;
+    width: 50px;
     height: 32px;
 }
 
@@ -17,4 +17,15 @@ img{
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
+}
+.cat-info{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+   }
+.box{
+    width: 320px;
 }
