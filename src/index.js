@@ -43,7 +43,7 @@ function onSelect(evt) {
       breedSelect.classList.remove('is-hidden');
       const { url, breeds } = data[0];
 
-      catInfo.innerHTML = `<div><img src="${url}" alt="${breeds[0].name}" width="320"/></div><div class="box"><h1>${breeds[0].name}</h1><p>Origin: ${breeds[0].origin}</p><p>${breeds[0].description}</p><p><b>Temperament:</b> ${breeds[0].temperament}</p></div>`
+      catInfo.innerHTML = `<div><img src="${url}" alt="${breeds[0].name}" width="420"/></div><div class="box"><h1>${breeds[0].name}</h1><p>Origin: ${breeds[0].origin}</p><p>${breeds[0].description}</p><p><b>Temperament:</b> ${breeds[0].temperament}</p></div>`
       catInfo.classList.remove('is-hidden');
     })
     .catch(onFetchError);
